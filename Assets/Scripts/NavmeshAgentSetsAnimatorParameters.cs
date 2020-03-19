@@ -6,11 +6,12 @@ using UnityEngine.AI;
 public class NavmeshAgentSetsAnimatorParameters : MonoBehaviour
 {
     public Animator Animator;
+    public NavMeshAgent NavMeshAgent;
     public string BoolVariableName;
     public string FloatVariableName;
     public Vector2 FromFloatMinMax;
     public Vector2 ToFloatMinMax;
-    public NavMeshAgent NavMeshAgent;
+ 
 
 
     private void Update()
